@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+}
+#cell{
+    height:4px;
+    width:4px;
+    border-width: 1px;
+    background-color: black;
+    float: left;
+    display: block;
+}

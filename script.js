@@ -26,7 +26,12 @@ function addCellListener()
     cells = document.querySelectorAll('#cell');
     cells.forEach((c) =>{
         c.addEventListener('mouseover', () =>{
-            c.style = "background-color: black;";
+            var r = Math.random() * 256;
+            var g = Math.random() * 256;
+            var b = Math.random() * 256;
+            var style = "rgb(" + r.toString() + ", "
+            + g.toString() + ", " + b.toString() +");"
+            c.style = "background-color: "+style;
         });
     });
 }

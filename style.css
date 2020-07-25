@@ -2,10 +2,12 @@
     display: grid;
 }
 #cell{
-    height:4px;
-    width:4px;
-    border-width: 1px;
-    background-color: black;
+    background-color: white;
+    height:16px;
+    width:16px;
+    border-width: thin;
+    border: solid;
+    border-color: #444;
     float: left;
     display: block;
 }
